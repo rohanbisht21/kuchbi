@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100% ;
+    width:100%;
+   
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+}
+
+
+.headerCont{
+    display:flex;
+    height: auto;
+
+
+
+}
+.navbar{
+    justify-content: space-around;
+}
+.button1{
+    background-color: red;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    padding: 3px;
+
+}
+
+.navlist{
+   display: flex;
+}
+.nav1{
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+
+.nav2{
+   
+    display: flex; 
+     align-items: flex-end; 
+    justify-content:flex-end;
+    padding:5px 10px 0px 0px;
+}
+.nav2 ul{
+    list-style: none;
+}
+
+.box1{
+    background-color: #298DAD;
+    height: 40px;
+    width: auto;
+    border-radius: 4px;
+    margin :20px
+    
+
+}
+.Coworking, .Mobility{
+    padding-left: 60px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-size: 15px;
+    cursor: pointer;
+ 
+}
+ul{
+    list-style: none !important;
+}
+
+
+ 
+
+.subhead{
+    font-weight: 300; 
+    font-size: 22px;
+    padding: 5px;
+}
+.li1
+{
+    justify-content: center;
+    width: auto;
+    height: auto;
+   
+}
+.li1content{
+    color: #A3A3A3;
+    padding:10px 2px;
+   
+    width:auto;
+    
+    
+
+}
+
+
+.legalimg{
+    color: white;
+    font-family: sans-serif;
+    background-image: url(https://www.awfis.com/images/leagal.jpg) ;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.content{
+    color: rgb(247, 247, 247);
+   
+      font-family: sans-serif;
+      margin: 0px 0px 15px;
+  
+    
+    padding:12px 15px;
+    font-weight: 500;
+   
+   
+}
+
+li{
+    margin-left: 34px;
+    font-family: sans-serif;
+    padding: 2px;
+}
+.container{
+display: flex;
+
+height: auto;
+width: auto;
+
+
+}
+.container1,.container2,.container3,.container4{
+    height: auto;
+    width: 85%;
+    
+    
+}
+.newspan{
+    background: red;
+    border-radius: 3px ;
+    font-weight: normal;
+    color: aliceblue;
+    padding: 4px;
+    text-align: center;
+}
+.careersSpan{
+    background: #f3a600;
+    border-radius: 3px ;
+    font-weight: normal;
+    color: aliceblue;
+    padding: 4px;
+    text-align: center;
+    
+}
+@media screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .headerCont{
+        flex-wrap: wrap;
+        
+    }
+}
+footer{
+    background-color: #F4F6FA;
+    
+}
+.aboutfooter{
+    margin-top: 10px ;
+}
+.footcontent{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 50px 30px;
+   
+    
+
+}
+.footcontentli{
+    padding: 0px 16px;
+    color: grey;
+    font-weight:540;
+}
+.footercareersSpan{
+    background: red;
+    border-radius: 3px ;
+    font-weight: normal;
+    color: aliceblue;
+    padding: 4px;
+    text-align: center;
+}
+.outerfooter{
+    display: flex;
+    padding: 2%;
+}
+.footimg3{
+    display: flex;
+   
+}
+.footerimages{
+margin-left: 50px;
+}
+.footimg1{
+    margin: 60px 0px 30px;
+    
+    
+}
+.footimg2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.locationfooterbox{
+    margin-left: 60px;
+}
+.Productsfooterbox
+{
+    margin-left: 60px;
+}
+
+.footsubimg img{
+    margin:4px;
+    border: 0;
+    border-radius: 30px;
+    height: 38px;
+    
+}
+
+/*button location dropdown*/
+
+.dropdown .locbut{
+    padding: 1px 15px;
+    border:none;
+    cursor: pointer;
+    background-color: white;
+    color: #A3A3A3;
+    font-size: 19px;
+    font-weight: 100;
+
+}
+.dropdown li{
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    
+}
+
+.dropdown .contentdrop{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsl(0%, 0%, 0.8);
+    background-color: white;
+
+}
+
+.dropdown:hover  .contentdrop{
+    display :block;
+    cursor: pointer;
+}
+
